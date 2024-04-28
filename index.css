@@ -23,6 +23,7 @@ body {
   max-width: 390px;
   margin: 20px auto;
   row-gap: 10px;
+  height: auto;
 }
 
 /* HEADER */
