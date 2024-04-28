@@ -1,0 +1,68 @@
+/* Fonts Josefin Sans h25, lh25 w700 */
+/* Fonts Inter h15 lh18.75, w400 */
+:root {
+  --mainBG: #111827;
+  --accentBG: #374151;
+  --btnBG: #28a8f1;
+  --mainFont: "Josefin Sans", sans-serif;
+  --secondFont: "Inter", sans-serif;
+  --fwRegular: 400;
+  --fwBold: 700;
+  --mainColor: #fff;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--mainBG);
+  font-family: var(--mainFont);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 390px;
+  margin: 20px auto;
+  row-gap: 10px;
+}
+
+/* HEADER */
+input,
+button {
+  display: block;
+}
+h1 {
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: var(--mainColor);
+}
+#watcImg {
+  width: 90px;
+  height: auto;
+  margin: 0 auto;
+}
+
+#endorse-message {
+  background-color: var(--accentBG);
+  color: var(--mainColor);
+  font-family: var(--secondFont);
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#endorse-button {
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 8px;
+  color: #111827;
+  font-weight: var(--fwBold);
+  background-color: var(--btnBG);
+  border: none;
+}
+
+p {
+  background-color: var(--mainColor);
+  padding: 10px;
+}
