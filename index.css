@@ -20,7 +20,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 390px;
+  max-width: 350px;
   margin: 20px auto;
   row-gap: 10px;
 }
