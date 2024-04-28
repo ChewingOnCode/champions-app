@@ -23,7 +23,6 @@ body {
   max-width: 390px;
   margin: 20px auto;
   row-gap: 10px;
-  height: auto;
 }
 
 /* HEADER */
@@ -39,7 +38,6 @@ h1 {
 }
 #watcImg {
   width: 90px;
-  height: auto;
   margin: 0 auto;
 }
 
@@ -48,9 +46,11 @@ h1 {
   color: var(--mainColor);
   font-family: var(--secondFont);
   border-radius: 8px;
-  border: none;
+  border: 0;
   padding: 10px;
   font-size: 20px;
+  text-align: center;
+  line-height: 18.75px;
 }
 
 #endorse-button {
@@ -60,7 +60,8 @@ h1 {
   color: #111827;
   font-weight: var(--fwBold);
   background-color: var(--btnBG);
-  border: none;
+  border: 0;
+  text-align: center;
 }
 
 p {
